@@ -54,13 +54,14 @@ msf > db_nmap 192.168.181.0/24
 ![Screenshot 2023-06-11 091704](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/9118b2c2-ea43-4b64-bf5e-33616089e9b8)
 
 
-![Screenshot 2023-06-11 090040](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/8d6772bb-22fc-48ad-8ca6-bfaa916e8274)
 
 
 Metasploit has a multitude of scanning modules built in. If we open another terminal, we can navigate to Metasploit's auxiliary modules and list all the scanner modules.
 cd /usr/share /metasploit-framework/modules/auxiliary
 kali > ls -l
 ## OUTPUT:
+
+![Screenshot 2023-06-11 090040](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/8d6772bb-22fc-48ad-8ca6-bfaa916e8274)
 ![Screenshot 2023-06-11 090140](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/1eec15ac-f151-47b2-9b9b-08e4bd115b8f)
 
 
