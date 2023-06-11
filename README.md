@@ -86,15 +86,17 @@ msfdb init
 Find the IP address of the Metasploitable machine first. Then, use the db_nmap command in msfconsole with Nmap flags to scan the MySQL database at 3306 port.
 db_nmap -sV -sC -p 3306 <metasploitable_ip_address>
 
+![Screenshot 2023-06-11 091704](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/3f864ba1-c0b9-4568-836b-2d567f63e98f)
 
-![Screenshot 2023-06-11 090835](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/05deb83c-a488-465e-98ee-83195e163903)
 
 
 
 
 Use the search option to look for an auxiliary module to scan and enumerate the MySQL database.
 search type:auxiliary mysql
-![Screenshot 2023-06-11 090938](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/88e8cbf7-1d72-4cdd-8fa3-01d5ddf2719a)
+
+![Screenshot 2023-06-11 090835](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/05deb83c-a488-465e-98ee-83195e163903)
+
 
 
 
@@ -103,13 +105,20 @@ use the auxiliary/scanner/mysql/mysql_version module by typing the module name o
 use 11
 Or:
 use auxiliary/scanner/mysql/mysql_version
-![Screenshot 2023-06-11 091102](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/a3ddcc64-a0b7-4b62-9685-29b0e58fec8f)
+
+
+![Screenshot 2023-06-11 090938](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/88e8cbf7-1d72-4cdd-8fa3-01d5ddf2719a)
+
+
+
 
 
 
 Use the set rhosts command to set the parameter and run the module, as follows:
 
-![Screenshot 2023-06-11 091215](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/b0f0a571-a306-4a0f-97d7-4bda19b1676c)
+![Screenshot 2023-06-11 091102](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/a3ddcc64-a0b7-4b62-9685-29b0e58fec8f)
+
+
 
 
 
@@ -117,8 +126,12 @@ Use the set rhosts command to set the parameter and run the module, as follows:
 
 After scanning, you can also brute force MySQL root account via Metasploit's auxiliary(scanner/mysql/mysql_login) module.
 
+![Screenshot 2023-06-11 091215](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/b0f0a571-a306-4a0f-97d7-4bda19b1676c)
 
-![Screenshot 2023-06-11 091634](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/967aca0b-45b6-4e70-8a06-d611c11b1c0f)
+
+
+
+
 
 
 
@@ -135,8 +148,7 @@ set BLANK_PASSWORDS true
 
 
 
-
-![Screenshot 2023-06-11 091704](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/3f864ba1-c0b9-4568-836b-2d567f63e98f)
+![Screenshot 2023-06-11 091634](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/967aca0b-45b6-4e70-8a06-d611c11b1c0f)
 
 
 
