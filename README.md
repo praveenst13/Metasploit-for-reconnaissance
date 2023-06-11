@@ -20,15 +20,18 @@ Investigate on the various categories of tools as follows:
 
 Open terminal and try execute some kali linux commands
 
-## EXECUTION STEPS AND ITS OUTPUT:
-
-
-## OUTPUT:
-
-
-
+## PROGRAM:
+Find out the ip address of the attackers system
 
 ## OUTPUT:
+
+
+
+
+
+![Screenshot 2023-06-11 081442](https://github.com/praveenst13/Metasploit-for-reconnaissance/assets/118787793/b429afa2-0218-44e2-8d95-fb6117639079)
+
+
 
 
 
